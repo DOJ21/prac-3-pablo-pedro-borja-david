@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+    /*COLORS*/
+    --blanco: #FFFFFF;
+    --rojo-terracota: #E07A5F;
+    --azul-petroleo: #004E66;
+    --verde-oliva: #A3B18A;
+    --amarillo-mostaza: #DAA520;
+
+    
+}
