@@ -25,4 +25,72 @@
 
 nav {
     font-size: 14px;
+    border-bottom: 0.2px solid rgb(34, 34, 34);
+    background-color: #FFFFFF;
 }
+
+#navbarNav {
+    flex-direction: row-reverse;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+a:hover {
+    filter: blur(1px);
+    transition: 1s;
+}
+
+
+
+
+.horizontal-scroll-container {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100vh;
+    padding-left: 3em;
+}
+
+.horizontal-scroll-row {
+    flex: 0 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+.horizontal-scroll-cell {
+    flex: 0 0 auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+img {
+    width: 30vw;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
