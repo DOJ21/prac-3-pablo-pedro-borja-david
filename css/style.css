@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 :root {
@@ -14,4 +15,14 @@
     --amarillo-mostaza: #DAA520;
 
     
+}
+
+/* DAVID */
+
+.logoh {
+    width: 100px;
+}
+
+nav {
+    font-size: 14px;
 }
