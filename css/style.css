@@ -19,6 +19,8 @@
 
 /* DAVID */
 
+/* nav */
+
 .logoh {
     width: 100px;
 }
@@ -49,11 +51,11 @@ a:hover {
 }
 
 
-
+/* main - scroll horizontal */
 
 .horizontal-scroll-container {
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -69,16 +71,138 @@ a:hover {
 
 .horizontal-scroll-cell {
     flex: 0 0 auto;
-    padding: 10px;
+    padding: 1em;
+    /* padding: 10px;
     border: 1px solid #ddd;
-    box-sizing: border-box;
-    width: 200px;
+    box-sizing: border-box; */
+    /* width: 200px; */
 }
 
-img {
-    width: 30vw;
+.cell-home {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-esencia {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.img-home-colonia{
+    width: 550px;
     height: auto;
 }
+
+.img-home {
+    width: 400px;
+    height: auto;
+}
+
+.img-home-tienda {
+    width: 400px;
+    height: 225px;
+    background: url("../img/exterior_tienda.png") no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.img-home-tienda:hover {
+    background: url("../img/interior_tienda_1.png") no-repeat;
+    background-size: cover;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    width: 400px;
+    height: auto;
+    
+    background-color: var(--rojo-terracota);
+}
+
+.button {
+    background-color: #ffffff;
+    color: var(--azul-petroleo);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-color: var(--amarillo-mostaza);
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: var(--azul-petroleo);
+    color: #f2f2f2;
+}
+
+
+.list-word {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    
+}
+
+.word {
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    font-weight: bold;
+}
+
+.img-home-colonia-sola {
+    width: 450px;
+    height: auto;
+}
+
+.word-left {
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    font-weight: bold;
+}
+
+.word:hover {
+    color: var(--amarillo-mostaza);
+}
+
+.word-left:hover {
+    color: var(--rojo-terracota);
+}
+
+.button-container-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    width: 500px;
+    height: 610px;
+    
+    background-image: url(../img/d_dessense.png);
+    background-repeat: no-repeat;
+    background-size: 500px 610px;
+}
+
+
 
 
 
