@@ -78,6 +78,21 @@ a:hover {
     margin-top: 50%;
 }
 
+.modal-content {
+    border: 0;
+    border-radius: 0;
+}
+
+.modal-title {
+    font-weight: bold;
+
+}
+
+.btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0 rgba(13, 109, 253, 0);
+    --bs-btn-close-focus-opacity: 0;
+}
+
 
 /* main - scroll horizontal */
 
@@ -232,6 +247,92 @@ a:hover {
     background-repeat: no-repeat;
     background-size: 500px 610px;
 }
+
+
+
+
+
+/* PEDRO */
+
+.pedro_main {
+    padding-top: 5em;
+}
+
+#base_aplicada {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+#bloque_esencias {
+    height: 20vw;
+}
+
+.perfume_perso {
+    width: 80%;
+} 
+
+@media screen and (max-width: 490px) {
+    .titulo {
+        font-size: 19px;
+    }
+
+    #bloque_esencias {
+        height: 105vw;
+    }
+
+    .perfume_perso {
+        width: 100%;
+    } 
+
+}
+
+
+@media (min-width: 576px) {
+    #bloque_esencias
+
+{
+    height: 40vw;
+}
+
+}
+
+
+@media (min-width: 768px) {
+    
+}
+
+
+@media (min-width: 992px) {
+    #bloque_esencias
+
+{
+    height: 40vw;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+    #bloque_esencias
+
+{
+    height: 40vw;
+}
+
+}
+
+
+@media (min-width: 1400px) {
+    #bloque_esencias
+
+{
+    height: 40vw;
+}
+
+}
+
+/* FIN PEDRO */
+
 
 
 @media screen and (max-width: 992px) {
