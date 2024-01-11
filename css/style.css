@@ -249,8 +249,9 @@ a:hover {
 }
 
 /*PABLO*/
-h2 {
-    font-size: calc(4rem + .9vw);
+h5 {
+    /* font-size: calc(4rem + .9vw); */
+    font-size: 4em;
 }
 
 h3 {
@@ -261,8 +262,19 @@ h3 {
     padding-top: 9em;
 }
 
+@media screen and (max-width: 390px) {
+    h5 {
+        /* font-size: calc(4rem + .9vw); */
+        font-size: 2em;
+    }
+}
 
-
+@media screen and (max-width: 312px) {
+    h5 {
+        /* font-size: calc(4rem + .9vw); */
+        font-size: 1em;
+    }
+}
 
 
 /* PEDRO */
