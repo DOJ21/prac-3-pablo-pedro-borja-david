@@ -97,7 +97,7 @@ a:hover {
 /* main - scroll horizontal */
 
 .horizontal-scroll-container {
-    padding-top: 20vh;
+    padding-top: 10vh;
     padding-bottom: 15vh;
     display: flex;
     overflow-x: scroll;
