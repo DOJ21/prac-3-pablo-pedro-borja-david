@@ -50,6 +50,34 @@ a:hover {
     transition: 1s;
 }
 
+#navbarNav_abajo {
+    flex-direction: row-reverse;
+    
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    
+}
+
+.nav_abajos {
+    flex-direction: row;
+    
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.cart {
+    width: 20px;
+    height: auto;
+    text-align: center;
+    margin-top: 50%;
+}
+
 
 /* main - scroll horizontal */
 
@@ -132,6 +160,7 @@ a:hover {
     text-align: center;
     text-decoration: none;
     border-color: var(--amarillo-mostaza);
+    border-style: solid;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -142,6 +171,8 @@ a:hover {
 .button:hover {
     background-color: var(--azul-petroleo);
     color: #f2f2f2;
+    filter: blur(0px);
+    transition: 1s;
 }
 
 
@@ -203,9 +234,80 @@ a:hover {
 }
 
 
+@media screen and (max-width: 992px) {
+    .cart {
+        width: 20px;
+        height: auto;
+        text-align: center;
+        margin-top: 0;
+    }
 
+}
 
+@media screen and (max-width: 500px) {
+    .horizontal-scroll-container {
+        padding-top: 15vh;
+        padding-bottom: 12vh;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 100vh;
+        padding-left: 3em;
+    }
 
+}
+
+@media screen and (max-width: 389px) {
+    .horizontal-scroll-container {
+        padding-top: 8vh;
+        padding-bottom: 12vh;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 100vh;
+        padding-left: 3em;
+    }
+
+    .img-home-colonia{
+        width: 460px;
+        height: auto;
+    }
+    
+    .img-home {
+        width: 300px;
+        height: auto;
+    }
+    
+    .img-home-tienda {
+        width: 300px;
+        height: 190px;
+        background: url("../img/exterior_tienda.png") no-repeat;
+        background-size: cover;
+    }
+
+    .button-container {
+        width: 300px;
+    }
+
+    .word {
+        font-size: 32px;
+    }
+    
+    .img-home-colonia-sola {
+        width: 360px;
+        height: auto;
+    }
+    
+    .word-left {
+        font-size: 32px;
+    }
+
+    .button-container-d {
+        background-size: 480px 510px;
+        height: 510px;
+    }
+
+}
 
 
 
