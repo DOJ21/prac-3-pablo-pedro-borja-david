@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
-  <title>Dessense - Sobre nosotros</title>
+  <title>DESSENSE - Sobre nosotros</title>
 
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="img\LOGO_FAVICON.png">
 </head>
 <body>
     <header>
@@ -28,13 +30,13 @@
                   <a aria-current="page" class="nav-link active" href="/index.html">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://dessenseblog.cargo.site">PERSONALIZA TU ESENCIA</a>
+                  <a class="nav-link" href="/personalizador.html">PERSONALIZA TU ESENCIA</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://dessenseblog.cargo.site">BLOG</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="cart"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-cart2 cart" viewBox="0 0 20 20">
+                  <a href="#" class="cart" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-cart2 cart" viewBox="0 0 20 20">
                     <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"></path>
                   </svg></a>
                 </li>
@@ -42,19 +44,61 @@
             </div>
           </div>
         </nav>
-        <div class="navbar z-3 fixed-bottom navbar-expand-lg container bg-white border-top" id="navbarNav_abajo">
+    
+        <!-- MODAL -->
+    
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">DESSENSE</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Lamentamos informarte que nuestro servicio de compra no está disponible en este momento. 
+                Estamos trabajando diligentemente para resolver cualquier problema técnico y restablecer la funcionalidad lo antes posible. 
+                Mientras tanto, te invitamos a explorar otras secciones de nuestro sitio y aprovechar nuestras promociones. 
+                Agradecemos tu comprensión y paciencia, y esperamos volver a ofrecerte una experiencia de compra excepcional muy pronto. 
+                ¡Gracias por tu comprensión!
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- NAV ABAJO -->
+    
+        <div class="navbar z-3 fixed-bottom navbar-expand-lg bg-white border-top container" id="navbarNav_abajo">
           <ul class="navbar-nav nav_abajos">
             <li class="item">
-              <a aria-current="page" class="nav-link" href="/personalizador">SOBRE NOSOTROS</a>
+              <a aria-current="page" class="nav-link" href="/about.html">SOBRE NOSOTROS</a>
             </li>
             <li class="item">
-              <a class="nav-link" href="https://dessenseblog.cargo.site">AVISO LEGAL</a>
+              <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#avisoLegal">AVISO LEGAL</a>
             </li>
             <li class="item">
-              <a class="nav-link" href="https://dessenseblog.cargo.site">ESP</a>
+              <a class="nav-link">ESP</a>
             </li>
           </ul>
         </div>
+    
+        <!-- MODAL -->
+    
+        <div class="modal fade" id="avisoLegal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">AVISO LEGAL</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                El acceso y uso de este sitio web están sujetos a los siguientes términos y condiciones. <br><br>
+                Al acceder y utilizar este sitio, aceptas cumplir con estos términos y condiciones. <br><br>
+                Si no estás de acuerdo con alguna parte de estos términos, te recomendamos que no utilices el sitio.
+              </div>
+            </div>
+          </div>
+        </div>
+    
       </header>
       <main>
         <div class="container marketing" id="contrainer_marketing">
@@ -70,7 +114,7 @@
                 <p class="lead">Somos una marca sostenible de colonias personalizables, un equipo de jóvenes reunido para solucionar uno de los problemas en el mercado de las fragancias y colonias.</p>
               </div>
               <div class="col-md-5">
-                <img src="img\colonia_plantas.jpg" alt="Colonia Girasol class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect></img>
+                <img src="img\colonia_plantas.jpg" alt="Colonia Girasol" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect></img>
               </div>
             </div>
         

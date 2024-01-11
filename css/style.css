@@ -248,6 +248,19 @@ a:hover {
     background-size: 500px 610px;
 }
 
+/*PABLO*/
+h2 {
+    font-size: calc(4rem + .9vw);
+}
+
+h3 {
+    font-size: calc(1rem + .9vw);
+}
+
+main {
+    padding-top: 9em;
+}
+
 
 
 
